@@ -96,18 +96,25 @@ mysite
     5> view 함수에서 template에 data 전달 및 render 결과 반환
     -----------------------------------------------------------------------------
     헬로우 추가하면 url,views 에 추가
+
 2. guestbook Application 만들기
     1) 터미널에서
        # python manage.py startapp guestbook
-    2) templates/emaillist 디렉토리 생성
+    2) templates/guestbook 디렉토리 생성/확인
     3) Application 등록
         settings.py의 INSTALLED_APPS 에 추가 한다.
+    -----------------------------------------------------------------------------
+    4) url mapping (urls.py)  url <---> view의 함수
+    5) view 함수에서 template에 data전달 및 render 결과 반환
+    -----------------------------------------------------------------------------
 
-
-4. guestbook Application 만들기
+3. user Application 만들기
     1) 터미널에서
-       # python manage.py startapp guestbook
-    2) templates/guestbook 디렉토리 생성
+       # python manage.py startapp user
+    2) templates/user 디렉토리 생성/확인
     3) Application 등록
         settings.py의 INSTALLED_APPS 에 추가 한다.
-
+    -----------------------------------------------------------------------------
+    4) url mapping (urls.py)  url <---> view의 함수
+    5) view 함수에서 template에 data전달 및 render 결과 반환
+    -----------------------------------------------------------------------------
